@@ -22,5 +22,6 @@ $rs=mysqli_query($conn,$req) or die (mysqli_error($conn));
             </tr>
         <?php } ?>
     </table>
+    <a href="SAISIRETUDIANT.HTML"> Rajouter un nouveau étudiant</a>
 </body>
 </html>
