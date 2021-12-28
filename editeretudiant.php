@@ -32,7 +32,7 @@ $et=mysqli_fetch_assoc($rs)
                 
             <tr>
                 <td>Photo :</td>
-                <td> <input type="file" name="photo" > </td>
+                <td> <input type="file" name="photo" accept=".jpg,.jpeg,.png,.gif" > </td>
             </tr>
             
             <tr>
